@@ -20,3 +20,4 @@ For both implementations, writing a function that returns a dictionary with all 
 ## External Links
   * https://www.quantopian.com/
   * https://www.umdqfs.com/
+  * https://finance.yahoo.com/
