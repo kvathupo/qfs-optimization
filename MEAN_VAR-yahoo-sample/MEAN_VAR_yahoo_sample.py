@@ -6,6 +6,8 @@ import pandas as pd
 
 # Used for test purposes
 test = {'HBIO': 0.02, 'PZZA': 0.01}
+test1 = {'NFX': 0.0013, 'PZZA': 0.002}
+test2 = {'NFX': 0.0013, 'TEVA': 0.0002}
 
 def modern_optimize(inputDict, period, capital):
 	"""Takes a dictionary, and int period. Returns weights.
