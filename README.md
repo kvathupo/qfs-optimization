@@ -22,7 +22,7 @@ The Yahoo Finance function intakes a integer time-period, a float initial capita
 For the Quantopian implementation, writing a function that returns a dictionary with all the feasible weights for any given variance and expected ROI. For the Yahoo Finance function, implementing an interactive graph of the feasible portfolios; ideally, this graph's data can be exported. See each respective folder for more details.
 
 ## How Can I See a Demonstration?
-Download the 
+Consult the README in `MEAN_VAR-yahoo-sample`.
 
 ## External Links
   * https://www.umdqfs.com/
