@@ -4,9 +4,11 @@
 2. Install the Conda package manager if not present. It can be freely installed from https://conda.io/docs/
 
 1. Downgrade your version of Python:
+
 ![Step_3](https://github.com/kvathupo/qfs-optimization/blob/master/images/ys_1.PNG "Step 3")
 
 4. Install `numpy`, `pandas`, and `bokeh`:
+
 ![Step_4](https://github.com/kvathupo/qfs-optimization/blob/master/images/ys_2.PNG "Step 4")
 
 ## Steps
@@ -24,6 +26,7 @@
 6. Note the five possible sample outputs:
 
 ![Step_6](https://github.com/kvathupo/qfs-optimization/blob/master/images/ys_5.PNG "Step 6")
+
 ![Step_6](https://github.com/kvathupo/qfs-optimization/blob/master/images/ys_6.PNG "Step 6 contd")
 
 
