@@ -27,7 +27,7 @@
 
 ![Step_6](https://github.com/kvathupo/qfs-optimization/blob/master/images/ys_5.PNG "Step 6")
 
-![Step_6](https://github.com/kvathupo/qfs-optimization/blob/master/images/ys_6.PNG "Step 6 contd")
+![Step_6c](https://github.com/kvathupo/qfs-optimization/blob/master/images/ys_6.PNG "Step 6 contd")
 
 
 7. Try something yourself!
