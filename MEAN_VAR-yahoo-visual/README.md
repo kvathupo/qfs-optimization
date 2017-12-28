@@ -17,17 +17,16 @@
 3. Run the interpreter with `$ python`
 4. Import the module. The module is imported as `m` for convenience:
 
-![Step_4](https://github.com/kvathupo/qfs-optimization/blob/master/images/ys_3.PNG "Step 4")
+![Step_4](https://github.com/kvathupo/qfs-optimization/blob/master/images/yv_1.PNG "Step 4")
 
 5. Note the five possible sample inputs:
 
-![Step_5](https://github.com/kvathupo/qfs-optimization/blob/master/images/ys_4.PNG "Step 5")
+![Step_5](https://github.com/kvathupo/qfs-optimization/blob/master/images/yv_2.PNG "Step 5")
 
-6. Note the five possible sample outputs:
+6. Try the function out!
 
-![Step_6](https://github.com/kvathupo/qfs-optimization/blob/master/images/ys_5.PNG "Step 6")
+![Step_6](https://github.com/kvathupo/qfs-optimization/blob/master/images/yv_3.PNG "Step 6")
 
-![Step_6c](https://github.com/kvathupo/qfs-optimization/blob/master/images/ys_6.PNG "Step 6 contd")
+![Step_6c](https://github.com/kvathupo/qfs-optimization/blob/master/images/yv_4.PNG "Step 6 contd")
 
-
-7. Try something yourself!
+7. A sample output file `MPT_Graph.html` is provided, but try experimenting! You can obtain individual portfolio data by simply hovering over the datapoints!
