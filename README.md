@@ -9,20 +9,34 @@ Python 2.7.13
 
 Modules:
 
-NumPy, pandas, sys
+NumPy, pandas, bokeh, sys
 
 ## Current Developments
-Writing two separate functions that interface with Quantopian and Yahoo Finance respectively. For the former, the function will simply be copy-pasted; for the latter, the function will be imported as a module to the Python interpreter.
+Writing three separate functions that interface with Quantopian and Yahoo Finance respectively. For the former, the function can simply be copy-pasted into Quantopian for functionality; for the latter, the function will be imported as a module to the Python interpreter. Further information:
 
-The Quantopian function should intake a dictionary of `sid` keys mapped to Return on Investment (ROI) values along with a period, and the `data` and `context` arguments.
+`./MEAN_VAR-quant`:
 
-The Yahoo Finance function intakes a integer time-period, a float initial capital, and a dictionary that maps string equity keys to float expected return values over the same time-period. The function returns information on the **global minimum variance portfolio** to be constructed in the form of a dictionary with each asset's weight and the portfolio's variance and expected return.
+The Quantopian function is in the woodworks.
+
+`./MEAN_VAR-yahoo`:
+
+The Yahoo Finance function returns information on the **global minimum variance portfolio** to be constructed in the form of a dictionary with each asset's weight and the portfolio's variance and expected return.
+
+`./MEAN_VAR-yahoo-visual`:
+
+The Yahoo Finance visual function returns a `html` file (that is automatically opens) that graphs the set of feasible potrfolios based on their standard deviation and expected return. It is interactive and individual dots can be hovered over for information.
 
 ## Future Developments
-For the Quantopian implementation, writing a function that returns a dictionary with all the feasible weights for any given variance and expected ROI. For the Yahoo Finance function, implementing an interactive graph of the feasible portfolios; ideally, this graph's data can be exported. See each respective folder for more details.
+`./MEAN_VAR-quant`:
+
+Writing a function that returns a dictionary with all the feasible weights for any given variance and expected ROI.
+
+`./MEAN_VAR-yahoo` and `./MEAN_VAR-yahoo-visual`:
+
+Applying linear integer programming to determine the integer number of shares to be allocated, as opposed to percentages of capital, which can result in fractional shares.
 
 ## How Can I See a Demonstration?
-Consult the README in `./MEAN_VAR-yahoo-sample`.
+Consult the READMEs in either `./MEAN_VAR-yahoo-sample` or `./MEAN_VAR-yahoo-visual`.
 
 ## External Links
   * https://www.umdqfs.com/
