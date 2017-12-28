@@ -29,4 +29,4 @@
 
 ![Step_6c](https://github.com/kvathupo/qfs-optimization/blob/master/images/yv_4.PNG "Step 6 contd")
 
-7. A sample output file `MPT_Graph.html` is provided, but try experimenting!
+7. A sample output file `MPT_Graph.html` is provided, but try experimenting! You can obtain individual portfolio data by simply hovering over the datapoints!
